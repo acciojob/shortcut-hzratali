@@ -1,5 +1,9 @@
 function shortcut(s1, s2) {
   // your code here
+	const initial1 = s1.charAt(0);
+    const initial2 = s2.charAt(0);
+    // Return the concatenation of the initial letters
+    return initial1 + initial2;
 }
 
 // Do not change the code below.
